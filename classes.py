@@ -17,19 +17,19 @@ class Livestock(DomesticAnimal):
     wool = True
 
 
-class Cow(Livestock, DomesticAnimal):
+class Cow(Livestock):
     wool = False
 
 
-class Goat(Livestock, DomesticAnimal):
+class Goat(Livestock):
     pass
 
 
-class Sheep(Livestock, DomesticAnimal):
+class Sheep(Livestock):
     color = 'brown'
 
 
-class Pig(Livestock, DomesticAnimal):
+class Pig(Livestock):
     milk = False
     wool = False
 
@@ -40,13 +40,13 @@ class Poultry(DomesticAnimal):
     fluff = True
 
 
-class Duck(Poultry, DomesticAnimal):
+class Duck(Poultry):
     webbed_paw = True
 
 
-class Hen(Poultry, DomesticAnimal):
+class Hen(Poultry):
     can_fly = False
 
 
-class Goose(Poultry, DomesticAnimal):
+class Goose(Poultry):
     webbed_paw = True
